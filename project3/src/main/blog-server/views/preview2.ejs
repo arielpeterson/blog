@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+
+       <% for(; index < result.length && count < 5; index++, count++) { %>
+            <h1><%= result[index].title %></h1>
+            <p><%= result[index].body %></p>
+
+       <% } %>
+       <% if ((result.length > 5) && (index < result.length)) { %>
+          <p><a id="next" href="/blog/next/<%= username%>/<%= index %>">Next</a></p>
+       <% } %>
+
+  </body>
+</html>
