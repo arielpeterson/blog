@@ -1,7 +1,7 @@
 /******** Code modified from the JDBC Tutorial *********/
 
 /***
- * File        : accessDatabase.java
+ * File        : Database.java
  * Description : Simple program to illustrate concepts in tutorial
  */
 
